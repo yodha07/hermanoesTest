@@ -1,0 +1,563 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Inter, Arial, sans-serif;
+}
+
+/* Top Bar Section */
+.top-bar {
+    background-color: #f5f5f5;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.top-bar .left {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar .left img {
+    margin-right: 10px;
+}
+
+.top-bar .left .consult a {
+    color: #0D47A1;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.top-bar .right span {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.top-bar .right img {
+    margin-right: 5px;
+    height: 16px;
+}
+
+/* Top Bar Section */
+.top-bar .right {
+    display: flex; /* This ensures all items inside align horizontally */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
+}
+
+.top-bar .right span {
+    margin-left: 20px; /* Adds spacing between each span */
+    font-size: 14px;
+    color: #333;
+    display: flex; /* This makes the content inside each span align properly */
+    align-items: center;
+}
+
+/* Header Section */
+header {
+    background-color: #0D47A1;
+    padding: 10px 0;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact-info {
+    font-size: 14px;
+}
+
+header .container nav ul li{
+    padding-right: 50px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("bg.jpg");
+    background-position: bottom; 
+    background-size: cover;
+    color: #333;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.hero-anchor{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: #0D47A1;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.hero-content {
+    position: relative;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Treatment Overview Section */
+.treatment-overview {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.treatment-overview .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.treatment-overview h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.treatment-overview p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.topnav {
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center items horizontally */
+    background-color: #fff;
+    overflow: hidden;
+    border-bottom: 3px solid rgba(92, 91, 91, 0.329);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    display: block; /* Maintain block display for links */
+    color: #333;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav :hover {
+    border-bottom: 3px solid #0D47A1;
+}
+
+.topnav .active {
+    border-bottom: 3px solid #0D47A1;
+}
+
+.section-one{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.treatment-section p{
+    line-height: 1.8;
+    margin-top: 50px;
+}
+
+.text-content{
+    flex: 1;
+}
+
+.section-one-img img{
+    flex: 1;
+    text-align: right;
+    height: auto;
+    width: 500px;
+}
+
+hr{
+    border: #3ab7ff dashed 1.5px;
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.treatment-section-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.treatment-content {
+    flex: 1;
+    margin-right: 300px;
+    width: 500px;
+}
+
+.treatment-content h2 {
+    font-size: 28px;
+    color: #0D47A1;
+    margin-bottom: 15px;
+}
+
+.treatment-content h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.treatment-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.treatment-content ul {
+    margin-top: 15px;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.treatment-content ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.treatment-content ul li:before {
+    content: '○';
+    position: absolute;
+    left: 0;
+    color: #0D47A1;
+    font-size: 14px;
+}
+
+.fixed-sidebar {
+    position: relative;
+    width: 300px; /* Adjust this based on your sidebar width */
+    transition: all 0.3s ease-in-out;
+}
+
+.fixed-sidebar.sticky {
+    position: fixed;
+    top: 20px; 
+    z-index: 999;
+    width: 300px;
+    right: 350px;
+}
+
+.help-box {
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.help-box h3 {
+    font-size: 24px;
+    color: #0D47A1;
+    margin-bottom: 15px;
+}
+
+.help-box p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.help-box form input,
+.help-box form textarea {
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.help-box form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0D47A1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.faq-section {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 350px;
+}
+
+.faq-section h2{
+    margin: 20px auto;
+}
+
+.accordion {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden; /* Hide overflow */
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+    background-color: #e0e0e0;
+}
+
+.accordion-content {
+    padding: 15px;
+    display: none; /* Hidden by default */
+}
+
+.accordion-icon {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.accordion-header.active .accordion-icon {
+    transform: rotate(45deg); /* Rotate icon when active */
+}
+
+.patient-stories{
+    display: flex;
+    width: 500px;
+}
+
+.card, .doc-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+  
+.quote {
+    font-size: 50px;
+    color: #ccc;
+}
+  
+.person-image {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+  
+.details {
+    font-size: 14px;
+    color: #555;
+}
+
+.doctor-card {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.doctor-name {
+    color: red;
+    font-weight: bold;
+}
+
+.location {
+    color: grey;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.owl-nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.doctor-shcs{
+    text-align: center;
+    background-color: #3ab7ff;
+    padding-top: 20px;
+    height: 60dvh;
+    width: inherit;
+}
+
+.hospital-shcs{
+    text-align: center;
+    padding-top: 20px;
+    height: 60dvh;
+    width: inherit;
+}
+
+.doctor-shcs .item, .hospital-shcs .item{
+    margin-left: 158px;
+}
+
+.text-center{
+    margin: 20px auto;
+}
+
+.doctor-card{
+    width: 300px;
+    height: 40dvh;
+}
+
+.doctor-card img{
+    object-fit: cover;
+    width: auto;
+    height: 20dvh;
+}
+
+.doctor-card h5, p{
+    margin-top: 20px;
+}
+
+.hospital-card{
+    border: 2px dotted red;
+    width: 300px;
+    height: 40dvh;
+    border-radius: 12px;
+}
+
+.contact{
+    text-align: center;
+    height: 20dvh;
+    background-color: #3ab7ff;
+}
+
+.contact h2, h1{
+    padding-top: 20px;
+}
+
+.contact-flex{
+    padding-top: 20px;
+}
+
+.contact-btn{
+    background-color: #0D47A1;
+    width: 150px;
+    height: 5dvh;
+    border: none;
+    color: #fff;
+    font-size: larger;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #102A42;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-section ul{
+    list-style: none;
+}
+
+.footer-section ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+.footer-section ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-divider{
+    border: 1px solid #ccc;
+}
+
+.socials img{
+    width: 32px;
+    height: 32px;
+}
+
+.about-section{
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.about-text{
+    margin-right: 150px;
+}
+
+.socials{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
